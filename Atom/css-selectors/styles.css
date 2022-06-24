@@ -1,0 +1,73 @@
+.synopsis {
+  color: #7E8184;
+  font-style: italic;
+}
+
+.button:link, .button:visited {
+
+  display: block;     /* 想要让 <a>的展示和div一样，必须有这个： */
+  text-decoration: none;
+
+  color:#FFF;
+  background-color: #5995DA;
+  font-weight:bold;
+  padding:20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  width:200px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin:20px auto;
+}
+
+.button:hover, .button:visited:active {
+  color: #FFF;
+  border-color: #5995DA;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+#button-2 {
+  color: #5D6063;
+}
+
+
+.page {
+  width: 700px;
+  padding:20px;
+  border: 1px solid #5D6063;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;       /* 从没按过的链接 */
+}
+
+a:visited {
+  color: purple;               /* 按过的链接 */
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline; /* 鼠标悬停的链接 */
+}
+
+a:active {
+  color: red;                /* 按下瞬间的链接 */
+}

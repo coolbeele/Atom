@@ -1,0 +1,58 @@
+h1, p {
+  background-color: #DDE0E3;  /*给hi，p灰色背景*/
+}
+
+em {
+  background-color: #B2D6FF; /*给斜体粗体蓝色背景*/
+  display: block; /*让em，strong单独成为一块（分类：页，块，行）*/
+}
+
+h1 {
+  /*也可以padding: 20px 10px;*/
+  /*
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  */
+  /* padding: 20px 10px 10px 20px 上右下左 */
+  padding: 50px;
+  border-bottom: 1px solid #5D6063;
+  margin-bottom: 50px;
+}
+
+strong {
+  border:1px solid #5D6063;
+  margin: 50px;
+}
+
+p {
+  padding: 20px 0 20px 10px;
+
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  width: 200px;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+
+body {
+  text-align:center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

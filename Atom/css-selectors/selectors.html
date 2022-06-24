@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+
+<html>
+  <head>
+    <meta charset = 'utf-8'/>
+    <title>CSS Selectors</title>
+    <link rel = 'stylesheet' href = 'styles.css'/>
+  </head>
+  <body>
+
+    <div class = 'page'>
+
+      <h1>CSS Selectors</h1>
+
+      <p class = 'synopsis'>CSS selectors let you <em>select</em> individual HTML elements document. This is <strong>super</strong> useful.</p>
+
+      <p>Class are ridiculously important, since they allow you to select arbitrary boxes in your web pages. </p>
+
+      <p>We'll also be talking about links in this example, so here's <a href='http://internetingishard.com'>Interneting is hard</a> style.</p>
+
+      <a class = 'button' href = 'nowhere.html'>Button One</a>
+      <a id = 'button-2' class = 'button call-to-action' href = 'nowhere.html'>Button Two</a> <!--button call-to-action并不是一个类（class），而是两个完全不同的类（class）
+                                                              只是html没有逗号，所以容易误会，这里的意思是button two共享两个类里面的排版
+                                                              （又具有button one里的所有特性，又用call-to-action里特有的排版覆盖了button one的
+                                                            -->
+      <a href = '#button-2'>Go to the web where includes Button Two. </a>
+      <!-- <a href='selectors.html#button-2'>Go to Button Two</a> -->
+
+    </div>
+
+  </body>
+</html>

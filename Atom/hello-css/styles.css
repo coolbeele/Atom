@@ -1,0 +1,35 @@
+body {
+  color: #414141;
+  background-color: #EEEEEE;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2em;   // em是基于18px的2倍
+}
+
+h2{
+  font-size: 1.6em; // em是基于18px的1.6倍
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial"， sans-serif; // 同时统一6个标题的字体，依次选择这三个字体，因为并不是所有用户都安装了某一个字体："Helvetica", "Arial"， sans-serif
+  font-weight: "normal";
+}
+
+ul {
+  list-style-type: none;  //ul不用排列符号
+}
+
+
+ol {
+  list-style-type: lower-roman; //ol用罗马数字来列123
+}
+
+a {
+  text-decoration: none; //所有链接下划线取消
+}
+
+P {
+  text-align: left; //整个网页左边对齐
+}
